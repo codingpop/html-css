@@ -59,10 +59,9 @@ body {
 
 footer {
   background-color: #333333;
-}
-
-.right {
-  float: right;
+  padding: 30px 0;
+  color: #fff;
+  font-weight: 400;
 }
 
 h1 {
@@ -117,17 +116,26 @@ h1 span {
 =========================================*/
 .ad-bar {
   background: #E3E3E3;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 55px;
 }
 
 header {
   background: #373277;
+  padding: 20px 0;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
 }
 
 .nav li {
   display: inline-block;
   margin-right: 10px;
   vertical-align: top;
-  padding: 10px;
+  
 }
 
 .nav-search {
@@ -233,7 +241,6 @@ header {
 }
 
 .teaser img {
-  display: inline-block;
   float: left;
   height: 80px;
   border-radius: 50%;
@@ -262,13 +269,13 @@ header {
   margin-bottom: 10px;
 }
 
-.intro .col-2-3, .intro2. .col-2-3 {
+.intro .col-2-3, .intro2 .col-2-3 {
   padding: 0 90px;
   font-size: 20px;
   line-height: 30px;
 }
 
-.intro2. .col-2-3 {
+.intro2 .col-2-3 {
   padding-left: 0;
 }
 
