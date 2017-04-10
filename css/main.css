@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* =======================================
+  General Styles
+=========================================*/
+body {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+h1 span {
+  font-weight: 300;
+}
+
+
+/* =======================================
+  Grid
+=========================================*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.container, .grid {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* =======================================
+  Columns
+=========================================*/
+.col-1-3 {
+  width: 33.33%;
+}
+
+.col-2-3 {
+  width: 33.33%;
+}
+
+.col-1-3, .col-2-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* =======================================
+  Navigation
+=========================================*/
+.ad-bar {
+  background: #E3E3E3;
+}
+
+header {
+  background: #373277;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.nav-search {
+  text-align: right;
+}
+
+.nav a, .nav a:visited{
+  color: #A09EBF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #fff;  
+}
+
+
+/* =======================================
+  Rows
+=========================================*/
+.row {
+  min-width: 85%;
+}
+
+/* =======================================
+  Hero
+=========================================*/
+.hero {
+  background: #373277;
+  color: #fff;
+}
+
+.hero .col-1-3 {
+  padding: 70px 60px 30px 30px;
+  text-align: center;
+}
+
+.hero .col-2-3 {
+  padding: 30px 60px 30px 0;
+}
+
+/* =======================================
+  Buttons
+=========================================*/
+.btn {
+  display: inline-block;
+  background: #58973e;
+  font-weight: 300;
+  padding: 10px;
+  margin: 0 15px;
+}
+
+.btn-download {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 34px;
+  text-decoration: none;
+  font-weight: 400;
+  width: 100%;
+}
